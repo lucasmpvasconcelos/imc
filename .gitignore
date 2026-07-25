@@ -1,0 +1,72 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==========================
+# Ambiente Virtual
+# ==========================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================
+# Django
+# ==========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Arquivos de cache
+*.pot
+
+# ==========================
+# Variáveis de Ambiente
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# PyCharm
+# ==========================
+.idea/
+
+# ==========================
+# Sistema Operacional
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Testes
+# ==========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ==========================
+# Build
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Arquivos temporários
+# ==========================
+*.tmp
+*.bak
+*.swp
